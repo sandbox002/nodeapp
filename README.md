@@ -7,4 +7,4 @@ Tutorial Link: [Node.js Simple CRUD with Express.js and MySQL](https://www.mynot
 ## LICENCE
 You can download the project, modify the code and use it anywhere you want without re-posting to your blog. Happy Coding :)
 
-Thank you.
+Thank you.# AIAsandbox
