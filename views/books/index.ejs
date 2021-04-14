@@ -16,7 +16,7 @@
     <div class="alert alert-danger" role="alert"><%- messages.error %></div>
     <% } %>
 
-    <div class="card"> 
+    <div class="card">
         <div class="card-header">
             <ul class="nav nav-pills w-100">
                 <li class="nav-pill active">
@@ -28,14 +28,14 @@
             </ul>
         </div>
     <div class="card-body">
-        
+
         <% if(data.length) { %>
         <table class="table">
             <thead>
                 <tr>
                     <th scope="col">#</th>
                     <th scope="col">Name</th>
-                    <th scope="col">Author</th>
+                    <th scope="col">Autddhor</th>
                     <th width="200px">Action</th>
                 </tr>
             </thead>
@@ -46,15 +46,15 @@
                     <td><%= data[i].name%></td>
                     <td><%= data[i].author%></td>
                     <td>
-                        <a class="btn btn-success edit" href="../books/edit/<%=data[i].id%>">Edit</a>                       
-                        <a class="btn btn-danger delete" onclick="return alert('Are You sure?')" href="../books/delete/<%=data[i].id%>">Delete</a>                       
+                        <a class="btn btn-success edit" href="../books/edit/<%=data[i].id%>">Edit</a>
+                        <a class="btn btn-danger delete" onclick="return alert('Are You sure?')" href="../books/delete/<%=data[i].id%>">Delete</a>
                     </td>
                 </tr>
             <% } %>
             </tbody>
         </table>
         <% } %>
-        
+
         <!-- if result is empty -->
         <% if(!data.length) { %>
             <p class="text-center">No book found!</p>
