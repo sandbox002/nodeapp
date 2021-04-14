@@ -2,7 +2,7 @@ var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
-var logger = require('morgn');
+var logger = require('morgan');
 
 var flash = require('express-flash');
 var session = require('express-session');
@@ -25,7 +25,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use(session({ 
+app.use(session({
     cookie: { maxAge: 60000 },
     store: new session.MemoryStore,
     saveUninitialized: true,
