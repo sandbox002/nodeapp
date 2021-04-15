@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'AIA SandBoxArchitecture Tutorial' });
+  res.render('index', { title: 'AIA Sandchitecture Tutorial' });
 });
 
 module.exports = router;
