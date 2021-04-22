@@ -4,7 +4,7 @@ body {
   background-image: url('test.png');
   background-repeat:no-repeat;
   background-size: auto;
-  background-position: right bottom;
+  background-position: right top;
 }
 
 a {
