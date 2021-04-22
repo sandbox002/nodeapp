@@ -3,8 +3,8 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-image: url('test.png');
   background-repeat:no-repeat;
-  background-size: auto;
-  background-position: left top;
+  background-size: 70%;
+  background-position: right top;
 }
 
 a {
